@@ -18,8 +18,6 @@ namespace Test
             {
                 Console.WriteLine(nameNode.Value);
             }
-
-            Console.ReadLine();
         }
     }
 }
