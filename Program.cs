@@ -19,6 +19,14 @@ namespace Test
                 Console.WriteLine(nameNode.Value);
             }
 
+            var rootElement = XElement.Load("test.xml");
+            var nameNodes = rootElement.Descendants(rootElement.Name.Namespace + "Name");
+
+            foreach (var nameNode in nameNodes)
+            {
+                Console.WriteLine(nameNode.Value);
+            }
+
             Console.ReadLine();
         }
     }
