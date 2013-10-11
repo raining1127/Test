@@ -19,7 +19,7 @@ namespace Test
                 Console.WriteLine(nameNode.Value);
             }
 
-            Console.ReadKey();
+            Console.ReadLine();
         }
     }
 }
